@@ -8,7 +8,20 @@ A public marketplace for Codex plugins maintained by Justin Kropp.
 codex plugin marketplace add jrkropp/codex-plugins
 ```
 
-The catalog is intentionally empty until the first plugin is ready.
+Then install a plugin from the marketplace:
+
+```sh
+codex plugin add simplify@jrkropp-plugins
+```
+
+## Plugins
+
+### Simplify
+
+Simplify code by reducing the reasoning required to understand and safely
+change it. The plugin focuses on conceptual integrity, clear ownership, direct
+data flow, single enforcement points, and the removal of accidental
+complexity.
 
 ## Repository layout
 

@@ -1,0 +1,37 @@
+{
+  "name": "simplify",
+  "version": "0.1.0",
+  "description": "Reduce the reasoning required to understand and safely change code.",
+  "author": {
+    "name": "Justin Kropp",
+    "email": "justin@kropp.ca",
+    "url": "https://github.com/jrkropp"
+  },
+  "homepage": "https://github.com/jrkropp/codex-plugins/tree/main/plugins/simplify",
+  "repository": "https://github.com/jrkropp/codex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "simplification",
+    "refactoring",
+    "maintainability",
+    "code-quality"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Simplify",
+    "shortDescription": "Make code easier to understand and safely change.",
+    "longDescription": "Anchor engineering work on reducing accidental complexity, cognitive load, and change amplification rather than merely reducing line count.",
+    "developerName": "Justin Kropp",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/jrkropp/codex-plugins/tree/main/plugins/simplify",
+    "defaultPrompt": [
+      "Simplify this code by reducing its mental model.",
+      "Find the largest source of accidental complexity.",
+      "Make this change path obvious without changing behavior."
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Simplify Code"
+  short_description: "Reduce code complexity and reasoning burden"
+  default_prompt: "Use $simplify-code to make this code easier to understand and safely change."
