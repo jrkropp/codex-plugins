@@ -1,6 +1,6 @@
 {
   "name": "simplify",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Reduce the reasoning required to understand and safely change code.",
   "author": {
     "name": "Justin Kropp",
@@ -20,7 +20,7 @@
   "interface": {
     "displayName": "Simplify",
     "shortDescription": "Make code easier to understand and safely change.",
-    "longDescription": "Anchor engineering work on reducing accidental complexity, cognitive load, and change amplification rather than merely reducing line count.",
+    "longDescription": "Make behavior easier to trace and changes easier to locate through clear ownership and direct data flow. Preserve useful boundaries and refactor only when there is a concrete benefit.",
     "developerName": "Justin Kropp",
     "category": "Productivity",
     "capabilities": [
@@ -29,9 +29,9 @@
     ],
     "websiteURL": "https://github.com/jrkropp/codex-plugins/tree/main/plugins/simplify",
     "defaultPrompt": [
-      "Simplify this code by reducing its mental model.",
-      "Find the largest source of accidental complexity.",
-      "Make this change path obvious without changing behavior."
+      "Simplify this code so it is easier to understand and safely change.",
+      "Review this code for worthwhile simplifications.",
+      "Refactor this code to clarify ownership without changing behavior."
     ]
   }
 }

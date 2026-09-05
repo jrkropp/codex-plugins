@@ -19,9 +19,8 @@ codex plugin add simplify@jrkropp-plugins
 ### Simplify
 
 Simplify code by reducing the reasoning required to understand and safely
-change it. The plugin focuses on conceptual integrity, clear ownership, direct
-data flow, single enforcement points, and the removal of accidental
-complexity.
+change it. The skill favors clear ownership and direct data flow, preserves
+useful boundaries, and asks for concrete benefits before refactoring.
 
 ## Repository layout
 
